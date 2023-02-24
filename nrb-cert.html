@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .box{
+            margin-left: auto;
+            margin-right: auto;
+            width: 1025px;
+            height: 704px;
+            background-image: url("nrb-cert.png")
+        }
+        .name{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            padding-top: 350px;
+            font-size:30px
+        }
+
+        .serial_no{
+            display: flex;
+            padding-left: 15px;
+            padding-top: 285px;
+            color: white;
+            flex-direction: column;
+        }
+      </style>
+</head>
+<body>
+    <div class="box">
+        <span class="name"><b>{{LEARNERNAME}}</b></span>
+        <span class="serial_no"><b>{{SERIALNUMBER}}</b></span>
+    </div>   
+</body>
+</html>
